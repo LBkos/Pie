@@ -13,6 +13,7 @@
 		5358E011235EC3F50057FF9C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5358E00F235EC3F50057FF9C /* Main.storyboard */; };
 		5358E013235EC3F60057FF9C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5358E012235EC3F60057FF9C /* Assets.xcassets */; };
 		5358E016235EC3F60057FF9C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5358E014235EC3F60057FF9C /* LaunchScreen.storyboard */; };
+		5358E01E235EDABF0057FF9C /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5358E01D235EDABF0057FF9C /* Game.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		5358E012235EC3F60057FF9C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5358E015235EC3F60057FF9C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5358E017235EC3F60057FF9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5358E01D235EDABF0057FF9C /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				5358E009235EC3F50057FF9C /* AppDelegate.swift */,
 				5358E00B235EC3F50057FF9C /* SceneDelegate.swift */,
 				5358E00D235EC3F50057FF9C /* ViewController.swift */,
+				5358E01D235EDABF0057FF9C /* Game.swift */,
 				5358E00F235EC3F50057FF9C /* Main.storyboard */,
 				5358E012235EC3F60057FF9C /* Assets.xcassets */,
 				5358E014235EC3F60057FF9C /* LaunchScreen.storyboard */,
@@ -141,6 +144,7 @@
 				5358E00E235EC3F50057FF9C /* ViewController.swift in Sources */,
 				5358E00A235EC3F50057FF9C /* AppDelegate.swift in Sources */,
 				5358E00C235EC3F50057FF9C /* SceneDelegate.swift in Sources */,
+				5358E01E235EDABF0057FF9C /* Game.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,7 +298,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "Konstantin-Lopatkin.Apple-Pie";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -312,7 +316,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "Konstantin-Lopatkin.Apple-Pie";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
