@@ -20,7 +20,7 @@ class ViewController: UIViewController {
         newRound()
     }
     var currentGame: Game!
-    
+    // new round
     func newRound() {
         if !listOfWords.isEmpty {
             let newWord = listOfWords.removeFirst()
